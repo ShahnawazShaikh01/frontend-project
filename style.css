@@ -1,0 +1,934 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background: rgba(69, 69, 69, 1);
+    height: 100vh;
+    width: 100%;
+    color: white;
+    transition: background 0.5s;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+.hero header{
+    background: black;
+    z-index: 1;
+}
+nav .menu{
+    width: 25px;
+    margin-right:20px ;
+    cursor: pointer;
+
+}
+nav .logo{
+    width: 160px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style: none;
+    position: relative;
+    left:1000px;
+    display: inline-block;
+    transform: translate(-300px);
+    margin-right: 14px;
+    margin-top: 0;
+}
+button{
+    position:relative;
+    left: 720px;
+    background: white;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 50px;
+    height: 30px;
+    transition: background 0.5s;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    background: rgba(2, 58, 2, 0.859);
+    border-radius: 8px;
+    height: 20px;
+    width: 20px;
+    padding: 10px 10px;
+}
+button span{
+    display: block;
+    background: rgb(43, 43, 43);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 1px;
+    transition: background 0.5s margin-left 0.5s;
+}
+.lamp-container{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 200px;
+    
+}
+.lamp{
+    position: relative;
+    top: 85px;
+    height: 350px;
+    width: 200px;
+}
+.light{
+    transform: translatex(-30%);
+    position: relative;
+    top: 80px;
+    width: 520px;
+    margin-left: -10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    
+}
+.text-container{
+    position: relative;
+    left: 40%;
+    transform: translateX(20%);
+}
+.text-container h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.text-container h1 span{
+    color: rgba(2, 58, 2, 0.859);
+}
+.text-container p{
+    display:block;
+    font-size: 20px;
+    font-weight:normal;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.text-container a{
+    text-decoration: none;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    padding: 14px 40px;
+    font-size: 16px;
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 30px;
+    
+}
+footer{
+    color: white;
+    background: black;
+    display: flex;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+
+}
+.icon a i{
+    height: 30px;
+    width: 40px;
+    font-size: 2em;
+    position: relative;
+    bottom: 10px;
+    right: 9px;
+    padding-right: 2px;
+    margin-right: 3px;
+    
+}
+
+    
+
+.foot .icon a{
+    color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    position: relative;
+    top: 40%;
+    margin: 5px 5px;
+    display: inline-block;
+    height: 8px;
+    width: 10px;
+    border-radius: 20px;
+    background: white;
+    padding: 14px 25px;
+
+}
+.icon   p{
+    color: white;
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+    text-align: center;
+    transform: translateY(20px);
+}
+.icon p:hover{
+    color: rgba(2, 58, 2, 0.859);
+}
+.foot .icon a:hover{
+    background: rgba(2, 58, 2, 0.859);
+}
+.active{
+    background: rgba(2, 58, 2, 0.859);
+}
+.active span{
+    background: white;
+    margin-left:22px ;
+}
+.on{
+    opacity: 1;
+}
+.picture{
+    background: url(fireworks.jpg);
+    background-size: contain;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
